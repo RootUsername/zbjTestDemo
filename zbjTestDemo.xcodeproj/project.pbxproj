@@ -14,6 +14,7 @@
 		A03D5D961B55F499006F880A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A03D5D951B55F499006F880A /* Images.xcassets */; };
 		A03D5D991B55F499006F880A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A03D5D971B55F499006F880A /* LaunchScreen.xib */; };
 		A03D5DA51B55F499006F880A /* zbjTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A03D5DA41B55F499006F880A /* zbjTestDemoTests.m */; };
+		A03D5DB01B55FAA9006F880A /* addNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03D5DAF1B55FAA9006F880A /* addNewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A03D5D9E1B55F499006F880A /* zbjTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zbjTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03D5DA31B55F499006F880A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A03D5DA41B55F499006F880A /* zbjTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zbjTestDemoTests.m; sourceTree = "<group>"; };
+		A03D5DAE1B55FAA9006F880A /* addNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addNewViewController.h; sourceTree = "<group>"; };
+		A03D5DAF1B55FAA9006F880A /* addNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addNewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				A03D5D8D1B55F498006F880A /* AppDelegate.m */,
 				A03D5D8F1B55F498006F880A /* ViewController.h */,
 				A03D5D901B55F498006F880A /* ViewController.m */,
+				A03D5DAE1B55FAA9006F880A /* addNewViewController.h */,
+				A03D5DAF1B55FAA9006F880A /* addNewViewController.m */,
 				A03D5D921B55F499006F880A /* Main.storyboard */,
 				A03D5D951B55F499006F880A /* Images.xcassets */,
 				A03D5D971B55F499006F880A /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				A03D5D911B55F498006F880A /* ViewController.m in Sources */,
 				A03D5D8E1B55F498006F880A /* AppDelegate.m in Sources */,
 				A03D5D8B1B55F498006F880A /* main.m in Sources */,
+				A03D5DB01B55FAA9006F880A /* addNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
